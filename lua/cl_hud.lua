@@ -100,7 +100,7 @@ function hud.Paint()
 
 
 	local plycustom = hud.GetCustomColor()
-	local plygetpoints = hud.GetPoints(ply)
+
 	--background
 	draw.RoundedBox(0,hud.x, hud.y, 350, 150, Color(60,60,60,255))
 	draw.RoundedBox(0, hud.infox, hud.infoy, 271, 64, plycustom)
