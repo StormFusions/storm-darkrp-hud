@@ -67,17 +67,6 @@ CreateClientConVar( "storm_hudpos", 2, true, false )
 
 local avatar = vgui.Create("AvatarImage", self)
 
-function hud.GetPoints(ply)
-	local points = ply.PS2_Wallet
-	if points then
-		return ply.PS2_Wallet.points
-	else
-		return 0 
-	end
-end
-
-
-
 function hud.Paint()
 	local ply = LocalPlayer()
 
